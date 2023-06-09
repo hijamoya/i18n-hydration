@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/app-server",
+    "types": [
+      "node",
+      "@angular/localize"
+    ]
+  },
+  "files": [
+    "server.ts"
+  ]
+}
